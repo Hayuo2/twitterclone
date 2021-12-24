@@ -84,11 +84,11 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dcrg858io36jo0',
-        'USER': 'gaurqhoylbbpcu',
-        'HOST': 'ec2-44-198-29-193.compute-1.amazonaws.com',
+        'NAME': 'ddjbgqamk7j3qa',
+        'USER': 'gmgxenhautlfwj',
+        'HOST': 'ec2-52-70-109-8.compute-1.amazonaws.com',
         'PORT': 5432,
-        'PASSWORD': '58da72ad1e45d0e35cb2d4f37a0beb77e2f895fae94e8d8718876b731030d23d',
+        'PASSWORD': '0f0a5bad5c318266ac5699e13a1bfd8407f9ec97b3d692c2941d2e56a3f3bd3c',
     }
 }
 #django_heroku.settings(locals())
