@@ -79,25 +79,25 @@ WSGI_APPLICATION = 'django_forumm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ddjbgqamk7j3qa',
-        'USER': 'gmgxenhautlfwj',
-        'HOST': 'ec2-52-70-109-8.compute-1.amazonaws.com',
-        'PORT': 5432,
-        'PASSWORD': '0f0a5bad5c318266ac5699e13a1bfd8407f9ec97b3d692c2941d2e56a3f3bd3c',
-    }
-}
-#django_heroku.settings(locals())
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
+#         # 'ENGINE': 'django.db.backends.sqlite3',
+#         # 'NAME': BASE_DIR / 'db.sqlite3',
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'ddjbgqamk7j3qa',
+#         'USER': 'gmgxenhautlfwj',
+#         'HOST': 'ec2-52-70-109-8.compute-1.amazonaws.com',
+#         'PORT': 5432,
+#         'PASSWORD': '0f0a5bad5c318266ac5699e13a1bfd8407f9ec97b3d692c2941d2e56a3f3bd3c',
 #     }
 # }
+#django_heroku.settings(locals())
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
